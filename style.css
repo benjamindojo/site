@@ -1,0 +1,49 @@
+@import url("../site/components/compo.css");
+@import url("../site/components/continent.css");
+@import url("../site/components/footer.css");
+*{
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 550px){
+    .style{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .dest{
+        min-width: 450px;
+        height: 450px;
+        flex-wrap: wrap;
+        position: relative;
+        background-size: cover;
+    }
+    .destination{
+        margin: 0px;
+        min-height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+    }
+    
+    .nav-bar{
+        height: 470px
+    }
+}
+@media screen and (max-width: 1300px){
+    .dest{
+        min-width: 350px;
+        height: 350px;
+        flex-wrap: wrap;
+        position: relative;
+        background-size: cover;
+    }
+    .destination{
+        margin: 20px;
+        min-height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+    }
+}

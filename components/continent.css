@@ -1,0 +1,87 @@
+.titlee{
+    font-size: 45px;
+    position: relative;
+    margin: 50px;
+    margin-top: 150px;
+}
+
+.titlee::before{
+    content: "    ";
+    position: absolute;
+    background-color:#722323;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+.dest{
+    margin: 0px;
+    min-width: 420px;
+    height: 420px;
+    position: relative;
+    background-size: cover;
+    margin-left: 5px;
+}
+
+.destination{
+    margin: 20px;
+    min-height: 300px;
+    display: flex;
+    flex: 1;
+}
+
+.dest1{
+    background-image: url("../site/images/budapest.jpg");
+   
+}
+
+.dest2{
+    background-image: url("../site/images/lisbonne.jpg");
+    
+}
+.dest3{
+    background-image: url("../site/images/pragues.jpg");
+    
+}
+.dest4{
+    background-image: url("../site/images/seoul.jpg");
+    
+}
+.dest5{
+    background-image: url("../site/images/shanghai.jpg");
+  
+}
+.dest6{
+    background-image: url("../site/images/tokyo.jpg");
+    
+}
+.dest7{
+    background-image: url("../site/images/le_caire.jpg");
+   
+}
+.dest8{
+    background-image: url("../site/images/casablanca.jpg");
+   
+}
+.dest9{
+    background-image: url("../site/images/le_cap.jpg");
+    
+}
+.dest-features{
+    background-color:#722323;
+    color: white;
+    min-height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    padding-left: 15px;
+    max-width: fit-content;
+    min-width: 125px;
+    
+}
+.dest-price{
+    font-size: 15px;
+}
+.dest-name{
+    font-size: 30px;
+}
