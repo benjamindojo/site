@@ -12,6 +12,13 @@
     h1{
         font-size: 35px;
     }
+        div.title{
+        color:white;
+        font-size: 35px;
+        text-align: left;
+        position: absolute;
+        bottom: 200px;
+    }
     .dest{
         min-width: 450px;
         height: 450px;
