@@ -1,6 +1,6 @@
 .nav-bar{
     background-image: url("../../site/images/pont_sf.jpg"); 
-    height: 85vh;
+    height: 78vh;
     background-size: cover;
 
 }
@@ -33,8 +33,8 @@ h1.style{
 }
 div.title{
     color:white;
-    font-size: 50px;
+    font-size: 45px;
     text-align: left;
     position: absolute;
-    bottom: 150px;
+    bottom: 15%;
 }
